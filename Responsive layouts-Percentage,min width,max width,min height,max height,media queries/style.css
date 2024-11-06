@@ -1,0 +1,110 @@
+.mainHeading {
+  background-color: green;
+  border: 10px solid black;
+  border-radius: 50px;
+  font-size: 2rem;
+  box-shadow: 10px 10px 10px black;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+#divWoo {
+  display: block;
+  width: 30%;
+  height: 300px;
+}
+
+#divSong {
+  display: block;
+  width: 20%;
+  height: 300px;
+}
+
+#divKim {
+  display: block;
+  width: 10%;
+  height: 300px;
+}
+
+#francePic {
+  display: block;
+  width: 40%;
+  height: 300px;
+}
+
+#morizPic {
+  display: block;
+  width: 30%;
+  height: 300px;
+  min-width: 300px;
+}
+
+#kitPic {
+  display: block;
+  width: 20%;
+  height: 300px;
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 576px) {
+  body {
+    background-color: red;
+  }
+  h1 {
+    color: wheat;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    background-color: indigo;
+  }
+
+  h1 {
+    color: wheat;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: green;
+  }
+
+  h1 {
+    color: wheat;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-color: pink;
+  }
+
+  h1 {
+    color: wheat;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  body {
+    background-color: yellow;
+  }
+
+  h1 {
+    color: wheat;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  body {
+    background-color: violet;
+  }
+
+  h1 {
+    color: wheat;
+  }
+}
